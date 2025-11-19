@@ -1,0 +1,162 @@
+# ========================================================================
+# COMPLETE REQUIREMENTS FOR PLACEMENT PREDICTOR SYSTEM
+# Includes ALL dependencies for the entire career guidance platform
+# ========================================================================
+
+# Core Python Data Science Stack
+pandas>=2.0.0,<2.3.0
+numpy>=1.24.0,<1.27.0
+scipy>=1.10.0,<1.12.0
+
+# Machine Learning - Core
+scikit-learn>=1.3.0,<1.4.0
+joblib>=1.3.0,<1.4.0
+
+# Machine Learning - Advanced
+xgboost>=1.7.0,<2.1.0
+lightgbm>=4.0.0,<4.2.0
+
+# Deep Learning
+tensorflow>=2.10.0,<2.16.0
+keras>=2.10.0,<3.0.0
+
+# Web Framework - Flask
+Flask>=2.3.0,<3.1.0
+Flask-Login>=0.6.0,<0.7.0
+Werkzeug>=2.3.0,<3.1.0
+Jinja2>=3.1.0,<3.2.0
+itsdangerous>=2.1.0,<2.2.0
+click>=8.1.0,<8.2.0
+
+# Database
+# sqlite3 is built-in
+
+# Data Visualization
+matplotlib>=3.7.0,<3.9.0
+seaborn>=0.12.0,<0.14.0
+plotly>=5.15.0,<5.18.0
+
+# Natural Language Processing
+nltk>=3.8.0,<3.9.0
+textblob>=0.17.0,<0.18.0
+spacy>=3.6.0,<3.8.0
+
+# Document Processing
+PyPDF2>=3.0.0,<3.1.0
+python-docx>=0.8.11,<1.2.0
+pdfplumber>=0.9.0,<0.11.0
+
+# HTTP Requests and Web Scraping
+requests>=2.28.0,<2.32.0
+urllib3>=1.26.0,<2.2.0
+
+# File and Path Handling
+pathlib2>=2.3.0; python_version < "3.4"
+
+# Date and Time Utilities
+python-dateutil>=2.8.0,<2.9.0
+
+# Progress Bars and CLI
+tqdm>=4.65.0,<4.67.0
+colorama>=0.4.6,<0.5.0
+
+# Development and Testing
+pytest>=7.4.0,<7.5.0
+pytest-cov>=4.1.0,<4.2.0
+
+# Production Deployment
+gunicorn>=20.1.0,<21.3.0
+waitress>=2.1.0,<2.2.0
+
+# Utilities
+python-magic>=0.4.27; platform_system != "Windows"
+python-magic-bin>=0.4.14; platform_system == "Windows"
+
+# Email validation
+email-validator>=2.0.0,<2.1.0
+
+# Configuration management
+python-dotenv>=1.0.0,<1.1.0
+
+# JSON Web Tokens (for advanced auth)
+PyJWT>=2.8.0,<2.9.0
+
+# Image processing (for advanced features)
+Pillow>=10.0.0,<10.2.0
+
+# Cryptography
+cryptography>=41.0.0,<42.1.0
+
+# Excel file support
+openpyxl>=3.1.0,<3.2.0
+xlrd>=2.0.0,<2.1.0
+
+# Advanced data structures
+more-itertools>=10.1.0,<10.2.0
+
+# Memory profiling and optimization
+psutil>=5.9.0,<5.10.0
+
+# Regex and string processing
+regex>=2023.6.3,<2024.1.0
+
+# Statistical analysis
+statsmodels>=0.14.0,<0.15.0
+
+# Time series analysis
+prophet>=1.1.4,<1.2.0; platform_system != "Windows"
+
+# GPU acceleration (optional)
+# cupy>=12.0.0; platform_machine == "x86_64" and platform_system == "Linux"
+
+# Additional utilities for specific features
+beautifulsoup4>=4.12.0,<4.13.0
+lxml>=4.9.0,<5.1.0
+
+# Caching
+redis>=4.6.0,<4.7.0; extra == "redis"
+pymemcache>=4.0.0,<4.1.0; extra == "memcache"
+
+# API documentation
+flask-restx>=1.2.0,<1.4.0; extra == "api-docs"
+
+# Background tasks
+celery>=5.3.0,<5.4.0; extra == "celery"
+
+# WebSocket support (for real-time features)
+flask-socketio>=5.3.0,<5.4.0; extra == "websocket"
+
+# Alternative ML libraries (backup options)
+catboost>=1.2.0,<1.3.0; extra == "catboost"
+
+# For advanced resume parsing
+pdfminer3k>=1.3.4,<1.4.0; extra == "pdf-advanced"
+pypdf>=3.15.0,<3.18.0; extra == "pdf-advanced"
+
+# For better JSON handling
+orjson>=3.9.0,<3.10.0; extra == "fast-json"
+
+# YAML support
+PyYAML>=6.0,<6.1.0
+
+# For web scraping job data
+selenium>=4.11.0,<4.16.0; extra == "scraping"
+webdriver-manager>=4.0.0,<4.1.0; extra == "scraping"
+
+# For faster numerical operations
+numba>=0.57.0,<0.59.0; extra == "acceleration"
+
+# For model interpretability
+shap>=0.42.0,<0.45.0; extra == "interpretability"
+
+# For hyperparameter tuning
+optuna>=3.3.0,<3.5.0; extra == "optimization"
+
+# For feature engineering
+feature-engine>=1.6.0,<1.7.0; extra == "feature-engineering"
+
+# For data validation
+pydantic>=2.3.0,<2.6.0
+
+# For logging
+loguru>=0.7.0,<0.8.0; extra == "advanced-logging"

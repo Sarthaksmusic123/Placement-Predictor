@@ -1,0 +1,70 @@
+# Virtual Environments
+placement_env/
+placement-env/
+venv/
+env/
+.env/
+portable_python/
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+data/*.db
+data/*.sqlite
+
+# Logs
+logs/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Models (if large)
+models/*.pkl
+models/*.joblib
+models/*.h5
+models/*.model
+
+# Temporary files
+installer_temp/
+temp/
+tmp/
+
+# Requirements backup
+requirements_backup.txt
+
+# Large datasets
+*.csv
+data/large_datasets/
